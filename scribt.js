@@ -1,8 +1,9 @@
-const toggleBtn = document.getElementById("themeToggle");
-const body = document.body;
+const themeBtn = document.getElementById("themeToggle");
+const themeIcon = document.getElementById("themeIcon");
 
-toggleBtn.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    body.classList.toggle("light");
-    toggleBtn.textContent = body.classList.contains("dark") ? "🌞" : "🌙";
+themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    themeIcon.textContent =
+        document.body.classList.contains("dark") ? "🌙" : "☀️";
 });

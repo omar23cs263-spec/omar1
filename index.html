@@ -5,59 +5,62 @@
     <title>Personal CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="light">
 
-<header>
-    <h1>Omar Falah Al-Abbadi</h1>
-    <button id="themeToggle" title="Toggle Dark Mode">
+<header class="header">
+    <h1>Omar Al-Abbadi</h1>
+    <p>Computer Science Student</p>
+
+    <button id="themeToggle" class="theme-btn" title="Toggle Theme">
         🌙
     </button>
 </header>
 
-<section class="about">
-    <h2>About</h2>
-    <p>Computer Science student passionate about web development and modern technologies.</p>
-</section>
+<main class="container">
 
-<section class="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML & CSS</li>
-        <li>JavaScript</li>
-        <li>Git & GitHub</li>
-        <li>Problem Solving</li>
-    </ul>
-</section>
+    <section class="card">
+        <h2>About Me</h2>
+        <p>
+            I am a computer science student interested in web development,
+            software engineering, and modern technologies.
+        </p>
+    </section>
 
-<section class="education">
-    <h2>Education</h2>
-    <p>Bachelor of Computer Science – College of Computer Science and Mathematics</p>
-</section>
+    <section class="card">
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+            <li>Python</li>
+        </ul>
+    </section>
 
-<section class="experience">
-    <h2>Experience / Courses</h2>
-    <ul>
-        <li>Web Development Course</li>
-        <li>Python Programming Basics</li>
-    </ul>
-</section>
+    <section class="card">
+        <h2>Education</h2>
+        <p>BSc in Computer Science – University of Mosul</p>
+    </section>
 
-<section class="projects">
-    <h2>Projects</h2>
-    <ul>
-        <li>Restaurant Order System (Python)</li>
-        <li>Wi-Fi 5 vs Wi-Fi 6 Research Report</li>
-    </ul>
-</section>
+    <section class="card">
+        <h2>Projects</h2>
+        <ul>
+            <li>Personal CV Website</li>
+            <li>Restaurant Order System (Python)</li>
+            <li>Client-Server Application</li>
+        </ul>
+    </section>
 
-<section class="contact">
-    <h2>Contact</h2>
-    <p>Email: omaralobady482@gmail.com</p>
-    <p>GitHub: github.com/username</p>
-</section>
+    <section class="card">
+        <h2>Contact</h2>
+        <p>Email: example@email.com</p>
+        <p>GitHub: github.com/username</p>
+    </section>
 
-<footer>
-    <p>© 2025 Personal CV</p>
+</main>
+
+<footer class="footer">
+    © 2025 – Personal CV
 </footer>
 
 <script src="script.js"></script>

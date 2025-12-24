@@ -7,7 +7,7 @@ themeBtn.addEventListener("click", () => {
     themeIcon.textContent = document.body.classList.contains("dark") ? "🌙" : "☀️";
 });
 
-// Click-to-toggle for hover sections (works on mobile)
+// Click-to-toggle for hover sections
 const toggleSections = document.querySelectorAll(".hover-section");
 
 toggleSections.forEach(section => {

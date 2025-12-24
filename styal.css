@@ -1,18 +1,18 @@
 :root {
-    --bg: #020617;
-    --card: #0f172a;
-    --text: #ff9800; /* orange text */
-    --primary: #ff9800;
-    --glow: rgba(255, 152, 0, 0.35);
+    --bg: #050508;              /* Black Onyx */
+    --card: #0b0b12;            /* Rich Charcoal */
+    --text: #d4af37;            /* Luxury Gold */
+    --primary: #f6d372;         /* Soft Royal Gold */
+    --glow: rgba(212, 175, 55, 0.35); /* Gold Glow */
 }
 
-/* DARK THEME / LIGHT MODE */
+/* LIGHT ELEGANT MODE */
 body.dark {
-    --bg: #ffffff;
-    --card: #f0f0f0;
-    --text: #1d4ed8;
-    --primary: #1d4ed8;
-    --glow: rgba(29, 78, 216, 0.35);
+    --bg: #faf7f1;              /* Ivory Cream */
+    --card: #f1e7d8;            /* Soft Marble */
+    --text: #4b2c82;            /* Royal Purple */
+    --primary: #7c4dff;         /* Velvet Purple */
+    --glow: rgba(124, 77, 255, 0.35);
 }
 
 * {
@@ -36,7 +36,7 @@ body {
 
 .hero h1 {
     font-size: 2.6rem;
-    background: linear-gradient(90deg, var(--primary), #ffb74d);
+    background: linear-gradient(90deg, var(--primary), #fff1b3);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -125,7 +125,7 @@ h2 {
     list-style: none;
     padding: 10px 18px;
     border-radius: 999px;
-    background: var(--card);
+    background: #101018;
     box-shadow: 0 0 0 1px rgba(255,255,255,.08);
     transition: transform .3s ease, box-shadow .3s ease;
 }
@@ -145,7 +145,7 @@ h2 {
 .card {
     padding: 25px;
     border-radius: 16px;
-    background: var(--card);
+    background: #101018;
     text-align: center;
     transition: transform .3s ease, box-shadow .3s ease;
 }
@@ -166,7 +166,7 @@ h2 {
     padding: 25px;
     border-radius: 16px;
     text-align: center;
-    background: var(--card);
+    background: #101018;
     transition: transform .3s ease, box-shadow .3s ease;
 }
 
